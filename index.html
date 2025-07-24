@@ -6,6 +6,16 @@
   <title>SamuBot - Asistente con IA</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-46BDL7WFB3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-46BDL7WFB3');
+  </script>
+
   <style>
     body {
       font-family: 'Inter', sans-serif;
@@ -25,8 +35,15 @@
       📲 Instala la app de ChatGPT para usarlo, o si ya la tienes, entra directo y conversa al instante.
     </p>
 
-    <!-- Botón -->
-    <a href="https://chatgpt.com/g/g-687e72f0bd2081918a9ddc2d68a59af9-samubot-plataforma-viva-de-propuestas-y-accion" class="mt-2 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-4 px-8 rounded-full shadow-lg transition duration-300 text-xl">
+    <!-- Botón con seguimiento -->
+    <a 
+      href="https://chatgpt.com/g/g-687e72f0bd2081918a9ddc2d68a59af9-samubot-plataforma-viva-de-propuestas-y-accion" 
+      onclick="gtag('event', 'click', {
+        'event_category': 'boton',
+        'event_label': 'usar_ahora_landing'
+      });"
+      class="mt-2 bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-4 px-8 rounded-full shadow-lg transition duration-300 text-xl"
+    >
       🚀 Usar ahora
     </a>
 
@@ -38,7 +55,8 @@
 
     <!-- Footer -->
     <footer class="mt-12 text-xs text-gray-500">
-      Desarrollado por <strong>Analytika360</strong> · <a href="https://wa.me/59172950499?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20SamuBot" class="underline hover:text-gray-700 transition">Contáctanos</a>
+      Desarrollado por <strong>Analytika360</strong> · 
+      <a href="https://wa.me/59172950499?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20SamuBot" class="underline hover:text-gray-700 transition">Contáctanos</a>
     </footer>
   </div>
 </body>
