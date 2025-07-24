@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SamuBot - Asistente con IA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8fafc; /* fondo blanco suave */
+      color: #1a202c;
+    }
+  </style>
+</head>
+<body class="antialiased">
+  <div class="min-h-screen flex flex-col items-center justify-center px-4 text-center">
+    <!-- Imagen principal -->
+    <img src="39a5e31b-8cca-4fc3-93db-8d11c9640c3e.jpg" alt="SamuBot" class="w-64 mb-6 rounded-lg shadow-md" />
+
+    <!-- Título -->
+    <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 mb-4">SamuBot</h1>
+    <p class="text-lg text-gray-600 max-w-xl mb-8">
+      El asistente con inteligencia artificial que informa, escucha e invita a construir el futuro de Bolivia.
+    </p>
+
+    <!-- Botón -->
+    <a href="https://chatgpt.com/g/g-687e72f0bd2081918a9ddc2d68a59af9-samubot-plataforma-viva-de-propuestas-y-accion"
+       class="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-4 px-8 rounded-full shadow-lg transition duration-300 text-xl">
+      🚀 Usar SamuBot ahora
+    </a>
+
+    <!-- Enlace a web informativa -->
+    <p class="text-xs mt-6 text-gray-400">
+      ¿Deseas conocer más sobre cómo fue desarrollado y su impacto estratégico? 
+      <a href="https://analytika360.github.io/ConectaIA_SamuelBot/" class="underline hover:text-gray-700">Ver más</a>
+    </p>
+
+    <!-- Footer -->
+    <footer class="mt-12 text-xs text-gray-500">
+      Desarrollado por <strong>Analytika360</strong> · <a href="https://wa.me/59172950499?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20SamuBot" class="underline hover:text-gray-700 transition">Contáctanos</a>
+    </footer>
+  </div>
+</body>
+</html>
